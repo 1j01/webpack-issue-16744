@@ -14,20 +14,7 @@ module.exports = {
     library: {
       type: 'module',
     },
-    hashFunction: 'xxhash64',
   },
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.coffee$/,
-  //       use: ['coffee-loader'],
-  //     },
-  //     {
-  //       test: /\.css$/,
-  //       use: ['style-loader', 'css-loader']
-  //     },
-  //   ],
-  // },
   optimization: {
     minimize: false,
   },
