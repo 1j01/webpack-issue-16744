@@ -10,7 +10,7 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: "library-build.js",
+    filename: "library-bundle.esm.js",
     library: {
       type: 'module',
     },
